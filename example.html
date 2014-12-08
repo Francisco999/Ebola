@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Web Page Layout</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<!--YOU NEED THESE FOR THE LIGHTBOX-->
+<link href="tanstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+
+<!--YOU NEED THIS JAVASCRIPT CODE FOR THE ROLLOVER-->
+<script type="text/javascript">
+if(document.images)
+{
+  var image_array = new Array();
+	
+  // path to the directory with images
+  var path = 'images/';
+
+  // enumeration of the "active" images
+  image_array[0] = path + "image1.gif";
+  image_array[1] = path + "image2.gif";
+
+  var preload_image = new Array ();
+ 
+  for(var i=0; i<image_array.length; i++)
+  {
+    preload_image[i]= new Image();
+    preload_image[i].src = image_array[i];
+  }
+}
+function rollover(name, filename)
+{
+  document.images[name].src = filename;
+}
+</script>
+
+
+</head>
+
+<body>
+<div id="navbar">
+	<span class="inbar">
+		<ul>
+			<li class="navhome"><a href="#"><span>Sofware Developer</span></a></li>
+			<li><a href="#"><span>Education</span></a></li>
+			<li><a href="#"><span>Career & Salary</span></a></li>
+			<li><a href="#"><span>How CS is used</span></a></li>
+		</ul>
+	</span>
+</div>
+
+<div id="box1">
+<h1>Software Developer</h1>
+<br>
+
+</div>
+
+<div id="box2">
+Lorem ipsum dolor sit amet, nam ex quem mundi comprehensam, pri te magna semper. No mei erant appareat interesset, cetero scriptorem necessitatibus nam at. Erat inani ei eum, eros bonorum assueverit sit et, possit persius efficiantur id usu. Natum vituperata id mea, enim facete offendit ius eu, cum at atomorum signiferumque. Tale aliquam ut vim, et reque quodsi ius.
+</div>
+
+<div id="box3">
+
+<!--THIS IS THE IMAGE WITH THE ROLLOVER AND LIGHTBOX-->
+<a href="http://blogs.intel.com/jobs/files/2012/11/LisaDepew.jpg" rel="lightbox" onmouseover="rollover('button1','LisaDepew.jpg')" 
+            onmouseout="rollover('button1','http://blogs.intel.com/jobs/files/2012/11/LisaDepew.jpg')"> 
+<img name="button1" src="http://blogs.intel.com/jobs/files/2012/11/LisaDepew.jpg"></a>
+
+
+<br>
+<font size="1">
+<i>Image from: http://blogs.intel.com/jobs/2012/11/06/heading-to-houston-for-swe-2012/</i>
+</font>
+</div>
+
+
+</body>
+</html>
