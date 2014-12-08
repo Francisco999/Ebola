@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: lightBlue; 
+}
+
+h1 {
+	font: bold 90% Arial, sans-serif;
+	margin-bottom: 0.5em;
+}
+
+p {
+	font: 65% Verdana, sans-serif;
+}
+
+#box1 {
+	top: 100px;
+	left: 100px;
+	padding: 10px;
+	opacity:1.0;
+	background: #E2DFFF;
+	position: absolute;
+}
+
+#box2 {
+	top: 150px;
+	left: 100px;
+	width: 1000px;
+	padding: 10px;
+	opacity:1.0;
+	background: #DFFFE3;
+	position: absolute;
+}
+
+#box3 {
+	top: 250px;
+	left: 100px;
+	padding: 10px;
+	opacity:1.0;
+	background: #F1DFFF;
+	position: absolute;
+}
+
+#navbar{
+width:auto;
+height:36px;
+background:url(http://georgebenainous.com/web/code/menu2/img/navbar-bg.png) left top repeat-x; }
+#navbar .inbar{
+display:block;
+height:36px;
+background:url(http://georgebenainous.com/web/code/menu2/img/right-round.png) right top no-repeat; }
+#navbar ul, #navbar ul li{
+border:0px;
+margin:0px;
+padding:0px;
+list-style:none;
+height:36px;
+line-height:36px; } #navbar ul{
+background:url(http://georgebenainous.com/web/code/menu2/img/left-round.png) left top no-repeat; } 
+#navbar ul li{
+float:left;
+display:block;
+line-height:36px; } 
+#navbar ul li a{
+color:#403e32;
+text-decoration:none;
+font-weight:bold;
+display:block; } 
+#navbar ul li a span{
+padding:0 20px 0 0;
+height:36px;
+line-height:36px;
+display:block;
+margin-left:20px; }
+#navbar .navhome a, #navbar .navhome a:hover{
+background:url(http://georgebenainous.com/web/code/menu2/img/a-bg.png) left top no-repeat;
+height:36px;
+line-height:36px; } 
+#navbar .navhome a span, #navbar .navhome a:hover span{
+color:#000000;
+background:url(http://georgebenainous.com/web/code/menu2/img/span-bg.png) right top no-repeat;
+height:36px;
+line-height:36px; } 
+#navbar ul li a:hover{
+background:url(http://georgebenainous.com/web/code/menu2/img/ahover-bg.png) left top no-repeat;
+height:36px;
+line-height:36px; } 
+#navbar ul li a:hover span{
+background:url(http://georgebenainous.com/web/code/menu2/img/spanhover-bg.png) right top no-repeat;
+height:36px;
+line-height:36px; }

@@ -1,0 +1,196 @@
+/* MOCHA */				  				
+
+#mochaPageWrapper {
+	width: 100%;
+	overflow: auto;
+	}
+
+#mochaPage {
+	width: 475px;
+	background: #fff;	
+	}
+	
+#mochaPageAside {
+	padding: 30px 0 30px 40px;
+	width: 350px;
+	}		
+	
+#mochaDesktop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	}
+	
+#mochaDesktop div.mocha {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;	
+	}
+	
+#mochaDesktop div.mochaOverlay {
+	position: absolute;
+	top: 2px;
+	left: 3px;
+	}
+	
+#mochaDesktop div .mochaTitlebar {
+	width: 100%;
+	cursor: move;
+	}		
+	
+#mochaDesktop div .mochaTitlebar h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	margin: 6px 10px 4px 12px;
+	padding: 0;
+	}
+	
+#mochaDesktop div .mochaTitlebar a {
+	color: #444;
+	}	
+	
+#mochaDesktop .mochaContent {
+	font-size: 11px;
+	border-top: 1px solid #bdbdbd;	
+	border-bottom: 1px solid #d7d7d7;
+	}
+	
+#mochaDesktop .mochaScroller {	
+	background: #fff;
+	overflow: auto;	
+	}
+	
+#mochaDesktop .mochaScrollerpad {	
+	padding: 10px 12px;
+	}		
+
+.resizeHandle {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 12px;
+	height: 12px;
+	background: #000;
+	cursor: se-resize;
+	opacity: .0;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;	
+	}
+	
+.mochControls {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 33px;
+	height: 14px;
+	background: #fff;
+	opacity: .0;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	}
+
+.restoreMaxToggle, .mochaClose {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	float: right;
+	width: 14px;
+	height: 14px;
+	font-size: 1px;
+	color: #fff;	
+	cursor: pointer;	
+	}
+	
+.mochaClose {
+	margin: 0 0 0 5px;	
+	}					
+	
+/* Slider */
+
+#slider {
+	position: relative;
+	font-size: 12px;
+	font-weight: bold;
+	width: 200px;
+	padding-top: 16px;	
+	}
+
+#sliderarea {
+	clear: both;
+	position: relative;
+	height: 10px;
+	width: 200px;
+	font-size: 1px;	
+	background: #ddd;
+	margin: 2px 0 10px 0;
+	}
+ 
+#sliderknob {
+	position: absolute;
+	height: 10px;
+	width: 20px;
+	font-size: 1px;
+	background: #ff3300;
+	cursor: pointer;
+	}
+	
+#update {
+	position: absolute;
+	top: 0;
+	left: 0;	
+	}	
+	
+.clear {
+	clear: both;
+	}
+	
+/* Form Elements */
+	
+form {
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+	}
+
+#mochaPage textarea, #mochaPage input {
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;		
+	}
+	
+#mochaPage .input {
+	background: #fbfbfb;
+	width: 225px;
+	padding: 1px 0 1px 3px;
+	border: 1px solid #ccc;	
+	}
+
+#mochaPage textarea {
+	background: #fbfbfb;
+	width: 225px;
+	height: 100px;
+	padding: 1px 0 1px 3px;
+	border: 1px solid #ccc;	
+	}		
+
+#mochaPage .formLabel {
+	float: left;	
+	text-align: right;
+	clear: both;
+	width: 100px;
+	margin: 0 0 8px 0;	
+	}
+	
+#mochaPage .formField {
+	float: right;
+	text-align: right;
+	margin: 0 10px 8px 0;
+	width: 230px;
+	}
+	
+.submit {
+	margin: 8px 0 0 0;
+	}				
+
