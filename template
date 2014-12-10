@@ -31,8 +31,19 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+<<<<<<< HEAD:template
         <h3>
 
+=======
+        <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>News about ebola.</h3>
+
+<p>This page is news about ebola around the world</p>
+<img src="http://www.greenprophet.com/wp-content/uploads/Ebola-news-articles.jpg">
+<h3>How is Ebola effecting people around the world?</h3>
+<p>In aproximately 7 months, about 5,689 people died from Ebola in six countries; Liberia, Guinea, Sierra Leone, Nigeria, United States, and Mali.</p>
+<br><a href="http://www.bbc.com/news/world-africa-28755033">Link to news about ebola around the world</a>
+      
+>>>>>>> 4a22ad76f422c14b135ca0fe3f8a3a0b0dc5c86c:Index3.html
       </section>
     </div>
 
